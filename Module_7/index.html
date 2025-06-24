@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label for="firstname">First name:</label> <br>
+            <input type="text" id="first name" name="firstname"> <br> <br>
+            <label for="lastname"> Last name:</label> <br>
+            <input type="text" id="last name" name="lastname"> <br> <br>
+            <label for="email">E-mail: </label><br>
+            <input type="email" id="email" name="email"> <br> <br>
+            <label for="password"> Password:</label><br>
+            <input type="password" id="password" name="password"> <br> <br> 
+            <label for="gender"> Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="male" >Male</label>
+            <input type="radio" id="female" name="gender" value="female" >
+            <label for="female">Female </label> <br> <br> 
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="gaming" name="gaming" value="gaming">
+        <label for="gaming">Gaming</label><br>
+        <input type="checkbox" id="football" name="football" value="football">
+        <label for="football">Football</label><br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming">Swimming</label><br><br>
+
+        <label for="Pet">Pet</label>
+            <Select name="pet" id="pet">
+                <option value="Dog"> Dog</option>
+                <option value="Cat"> Cat</option>
+                <option value="Parrot">Parrot </option>
+            </Select><br> <br>
+        <label for="message"> Write your message:</label><br>
+        <textarea name="message" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" id="submit" name="submit"><br> 
+
+         </select><br><br>
+        <label for="message">write your message</label><br>
+        <textarea name="message" cols="30" rows="30" ></textarea><br>
+
+        </fieldset>
+         </form>
+ <!--
+         <input type="number">,<input type="image">,<input type="date">
+        <input type="file">, <input type=search"">,<input type="range">
+        -->
+        <!--attributes-->
+    <h3>attributes</h3>
+    <input type="text" id="firstname" name="firstname" value="doriana" readonly><br><br>
+    <input type="text" id="lastname" name="lastname" disabled><br><br>
+    <input type="email" id="email" name="email" size="30" required><br><br>
+    <input type="password" id="password" name="password" maxlength="10" placeholder="password"><br><br>
+    <input type="submit" id="submit" name="submit"><br><br>
+
+    <!--Semantic Elements -> form, table, footer, header, details, summary, figure, section -->
+
+    <!--Article-->
+    <article>
+        <h2>html</h2>
+        <p>html is the standard markup language</p>
+    </article>
+
+    <!--details and summary-->
+    <details>
+        <summary>digital school</summary>
+        <p>digital scool offers programming courses for students</p>
+    </details>
+
+
+    <!--figuare and figcaption-->
+    <figure>
+        <img src="fig.1.jpg" alt="image" width="300" height="300">
+        <figcaption> fig.1.jpg - caption</figcaption>
+    </figure>
+
+    <!--section-->
+    <section>
+        <h2>introduction</h2>
+        <p>this course will teach you how to scfeate websites using html,css and java script</p>
+    </section>
+</body>
+</html>
