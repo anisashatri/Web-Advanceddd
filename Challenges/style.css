@@ -9,9 +9,9 @@ h1 {
     color: #333;
 }
 
-/* Unordered list styling */
+
 ul {
-    list-style-type: square; /* custom bullet style */
+    list-style-type: square; 
     background-color: #e0f7fa;
     padding: 20px;
     border: 2px solid #00838f;
@@ -25,9 +25,9 @@ ul li {
     color: #006064;
 }
 
-/* Ordered list styling */
+
 ol {
-    list-style-type: upper-roman; /* custom numbering */
+    list-style-type: upper-roman; 
     background-color: #fff3e0;
     padding: 20px;
     border: 2px solid #ef6c00;
