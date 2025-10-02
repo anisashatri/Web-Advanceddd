@@ -1,0 +1,58 @@
+div.translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    transform: translate(50px, 100px);
+}
+div.scale{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    transform: scale(1.5 , 1.5);
+    /*transform: scale(1.5 , 1.5);*/
+    /*transform: scaleX(3);*/
+    /*transform: scaleY(3);*/
+}
+div.skew{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10;
+    /*transform: skewX(-48deg);*/
+    transform: skewY(40deg);
+}
+div#rotate{
+        width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10;
+    transform: rotateX(130deg);
+}
+div#rotateY{
+        width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10;
+    transform: rotateY(130deg);
+}
+div#rotateZ{
+        width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    padding: 10;
+    transform: rotateZ(130deg);
+}
