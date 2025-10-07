@@ -39,6 +39,7 @@ div:hover{
         filter: grayscale(100%);
         transition: .3s ease-in-out;
     }
-    #image4:hiver img{
+    #image4:hover img{
         filter: grayscale(0);
     }
+    
